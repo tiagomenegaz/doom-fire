@@ -29,7 +29,7 @@ function renderFire() {
       const pixelIndex = column + fireWidth * row;
 
       html += '<td>';
-      html += pixelIndex;
+      html += `<div class="pixel-index">${pixelIndex}</div>`;
       html += '</td>';
     }
 
