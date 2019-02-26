@@ -8,7 +8,7 @@ function start() {
   createFireSource();
   renderFire();
 
-  setInterval(calculateFirePropagation, 1000);
+  setInterval(calculateFirePropagation, 50);
 }
 
 function createFireDataStructure() {
@@ -38,7 +38,7 @@ function updateFireIntensity(currentPixel) {
     return
   }
 
-  const decay = 1;
+  const decay = Math.floor(Math.random() * 3);
   const belowPixelFireIntensity = firePixelArray[belowPixelIndex];
   const newFireIntesity = belowPixelFireIntensity - decay >= 0 ? belowPixelFireIntensity - decay : 0;
 
