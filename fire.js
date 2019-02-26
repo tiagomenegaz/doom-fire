@@ -65,7 +65,7 @@ function renderFire() {
       } else {
         const color = fireColorsPalette[fireIntensity];
         const colorString = `${color.r},${color.g},${color.b}`;
-        html += `<td style="background-color: rgb(${colorString})">`
+        html += `<td class="pixel" style="background-color: rgb(${colorString})">`
         html += `</td>`
       }
 
