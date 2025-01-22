@@ -7,7 +7,7 @@ Doom's fire implementation using pure JS
 
 First of all, you have to clone this repo
 ```
-git clone git@github.com:tmmgarcia/doom-fire.git
+git clone git@github.com:tiagomenegaz/doom-fire.git
 cd doom-fire
 ```
 
